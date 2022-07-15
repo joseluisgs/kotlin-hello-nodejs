@@ -1,5 +1,5 @@
 # Kotlin Hello Node.js 
-Este es un ejemplo de como usar Kotlin en un proyecto Node.js, una api rest en Node.js con Express
+Este es un ejemplo de como usar Kotlin en un proyecto Node.js, una API REST con Express
 
 [![Kotlin](https://img.shields.io/badge/Code-Kotlin-blueviolet)](https://kotlinlang.org/)
 [![Node.js](https://img.shields.io/badge/Code-NodeJS-green)](https://nodejs.org/es/)
