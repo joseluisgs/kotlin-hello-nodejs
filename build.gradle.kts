@@ -19,6 +19,7 @@ dependencies {
     // Modulos de NPM y dependencias NODEJS
     implementation(npm("is-sorted", "1.0.5"))
     implementation(npm("express", "4.18.1"))
+    implementation(npm("uuid", "8.3.2"))
 }
 
 kotlin {

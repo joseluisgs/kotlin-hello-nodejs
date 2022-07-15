@@ -23,6 +23,10 @@ fun main() {
     println(sorted(arrayOf(1, 2, 3)))
     println(sorted(arrayOf(3, 1, 2)))
 
+    // Si quiero usar un módulo de NPM, debo importarlo por ejemplo este uuid-v4
+    val uuid = require("uuid")
+    println(uuid.v4())
+
     // Obtenemos las personas
     val persons = getPersons()
     persons.forEach { println(it) }
