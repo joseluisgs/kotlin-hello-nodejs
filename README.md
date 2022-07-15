@@ -2,7 +2,7 @@
 Este es un ejemplo de como usar Kotlin en un proyecto Node.js, una API REST con Express
 
 [![Kotlin](https://img.shields.io/badge/Code-Kotlin-blueviolet)](https://kotlinlang.org/)
-[![Node.js](https://img.shields.io/badge/Code-NodeJS-green)](https://nodejs.org/es/)
+[![Node.js](https://img.shields.io/badge/Platform-NodeJS-green)](https://nodejs.org/es/)
 [![LICENSE](https://img.shields.io/badge/Lisence-CC-%23e64545)](https://joseluisgs.github.io/docs/license/)
 ![GitHub](https://img.shields.io/github/last-commit/joseluisgs/kotlin-hello-nodejs)
 
