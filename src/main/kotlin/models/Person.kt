@@ -6,8 +6,13 @@ import extensions.toLocalDateTime
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant
 
+
+// Mejor usar modulos de KMM
+// external fun require(module: String): dynamic
+// val uuid = modules.require("uuid")
+
 data class Person(val name: String, val age: Int) {
-    val id: Uuid = uuid4()
+    val id: Uuid = uuid4()//uuid.v4() as String
     var type: Type
     val createdAt: Instant = Clock.System.now()
 

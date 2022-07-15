@@ -9,7 +9,7 @@ import modules.sorted
  * el otro es usando la funcion requiere de nodejs
  */
 
-external fun require(module: String): dynamic
+// external fun require(module: String): dynamic
 
 fun main() {
     // Podemos usar Kotlin para hacer todo en Node.js
@@ -24,14 +24,14 @@ fun main() {
     println(sorted(arrayOf(3, 1, 2)))
 
     // Si quiero usar un módulo de NPM, debo importarlo por ejemplo este uuid-v4
-    val uuid = require("uuid")
+    val uuid = modules.require("uuid")
     println(uuid.v4())
 
     // Obtenemos las personas
     val persons = getPersons()
     persons.forEach { println(it) }
 
-    val express = require("express")
+    val express = modules.require("express")
 
     val app = express()
     app.listen(3000) {
