@@ -39,6 +39,7 @@ Puedes llamar a la app usando el script de Gradle run o build
 Compile Kotlin to JS using gradle
 
 ### Compilación y ejecución
+```
 Windows
 $ gradlew.bat build
 
@@ -47,7 +48,7 @@ $ ./gradlew build
 
 Run Node Server
 $ ./gradlew run
-
+```
 ### Acceso al endpoint
 El servidor escucha en el puerto 3000: http://localhost:3000/persons
 
